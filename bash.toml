@@ -1,0 +1,9 @@
+[sh_for_range]
+content = "for num in {0..9}; do echo $num; done"
+description = "For n in range bash."
+groups = [ "bash",]
+
+[sh_for_loop]
+content = "for file in *.txt; do ls $file; done"
+description = "A simple for loop in bash."
+groups = [ "bash",]
